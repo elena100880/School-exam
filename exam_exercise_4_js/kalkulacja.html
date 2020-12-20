@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<head lang="pl">
+	<meta charset="utf-8">
+	<title>Stacja paliw</title>
+	<link rel="stylesheet" href="styl3.css">
+</head>
+
+<body>
+	<div id="baner">
+		<h2>Witamy na Stacji paliw</h2>
+	</div>
+	
+	<div id="lewy">
+		<a href="index.html">
+			<img src="home.png">
+		</a><br>
+		
+		<a href="kalkulacja.html">
+			<img src="znak.png">
+		</a>
+	</div>
+	
+	<div id="prawy">
+		<img src="samochod.png" alt="grafika">
+	</div>
+	<div style="clear: both;"></div>
+	
+	<div id="glowny">
+		<h2>Oblicz, ile litrów musisz zatankować</h2>
+		
+		dystance do przejechania w km:<br>
+		<input type="number" id="dyst">
+		
+		<br>spalanie samochodu w L/100km:<br>
+		<input type="number" id="spal"><br>
+		
+		<input type="submit" value="OBLICZ" onclick="oblicz()">
+		<br><br><div id="rez"></div><br>
+	</div>
+	
+	<div id="stopkalewa">
+		<p>Stronę opracował: lapka</p>
+	</div>
+	
+	<div id="stopkaprawa">
+		<a href="kwerendy.txt">Tu pobierzesz zapytania</a>
+	</div>
+	<div style="clear: both;"></div>
+	
+<script>
+	function oblicz() {
+		var dyst = document.getElementById("dyst").value;
+		var  spal= document.getElementById("spal").value;
+		
+		var rez = dyst* (spal/100);
+		
+		//document.getElementById("rez").innerHTML=dyst;
+		
+		document.getElementById("rez").innerHTML="Potrzebujesz: "+rez+" litrów paliwa.";
+	}
+</script>	
+</body>
+
+
+
+
+
+
+
+
+
+
+
+

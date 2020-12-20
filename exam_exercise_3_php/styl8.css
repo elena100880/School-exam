@@ -1,0 +1,77 @@
+body {
+	font-family: georgia;
+}
+#logo, #menu {
+	background-color: #63ac74;
+	color: orange;
+	height: 140px;
+	width: 50%;
+	text-align: right;
+	font-size: 160%;
+	float: left;
+}
+#glowny1 {
+	background-color: #44d6e8;
+	height: 500px;
+	width: 30%;
+	float: left;
+	font-size: 130%;
+	float: left;
+}
+#glowny2, #glowny3 {
+	background-color: #44d6e8;
+	height: 500px;
+	width: 35%;
+	float: left;
+	text-align: center;
+	font-size: 130%;
+	float: left;
+}
+#stopka1, #stopka2, #stopka3, #stopka4 {
+	background-color: #63ac74;
+	height: 150px;
+	width: 25%;
+	float: left;
+}
+a {
+	color: orange;
+	margin: 15px;
+}
+table {
+	margin-left: 50px;
+	border-collapse: collapse;
+	text-align: center;
+	font-size: 120%;
+}
+td {
+	border: 1px solid yellow;
+	padding: 20px;
+}
+tr:hover {
+	color:yellow;
+}
+/*table tr td:last-child {
+	text-align: right;
+}
+li {
+	padding-top: 30px;
+}
+form {
+	margin-bottom: 100px; 
+}*/
+h3, img {
+	margin-top: 100px;
+}
+input[type="number"] {
+	margin: 10px;
+}
+/*#z {
+	float: left;
+}*/
+
+
+
+
+
+
+
